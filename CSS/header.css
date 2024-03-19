@@ -1,0 +1,31 @@
+header{
+    width: 970px;
+    margin: 36px auto;
+}
+header .nav_wrap{
+   
+}
+
+header .nav1_wrap{
+    width: 970px;
+    margin: 10px auto;
+}
+
+header .logo_side{
+   float: left; 
+}
+header .log{
+    
+    position: absolute; 
+    right: 0; top: 0;
+    display: inline-block;
+    
+}
+
+
+
+.nav2_wrap{
+    float: left;
+    width: 970px;
+    margin: 10px auto;
+}
