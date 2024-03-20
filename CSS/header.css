@@ -80,17 +80,13 @@ header .nav .hv-con {
 
 header .nav li:hover {
     background-color: #fff0b3;
-    
     transition-duration: 0.5s;
 }
 
 header .nav li .hv-con li:hover
-, header .nav li:hover
-{
+, header .nav li a:hover {
     font-weight: bold;
 }
-
-
 
 header .nav li:hover .hv-con{
     height: 150px;
