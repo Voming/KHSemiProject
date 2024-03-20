@@ -79,12 +79,14 @@ header .nav .hv-con {
 
 
 header .nav li:hover {
+    
     background-color: #fff0b3;
     transition-duration: 0.5s;
 }
 
 header .nav li .hv-con li:hover
 , header .nav li a:hover {
+    text-align: center;
     font-weight: bold;
 }
 

@@ -57,3 +57,9 @@ h5{
   font-weight: bold;
 }
 
+
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
