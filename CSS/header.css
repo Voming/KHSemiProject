@@ -37,7 +37,7 @@ header .log li {
 header .log a {
     /* 로그인 폰트 세팅 */
     font-size: 13px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 header .bn .nav2-wrap{
@@ -87,10 +87,14 @@ header .nav li:hover {
 header .nav li .hv-con li:hover
 , header .nav li a:hover {
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 header .nav li:hover .hv-con{
     height: 150px;
     transition-duration: 1s;
+}
+
+header .hv{
+z-index: 9999;
 }

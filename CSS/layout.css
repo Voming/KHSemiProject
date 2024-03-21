@@ -37,7 +37,3 @@
 .d-block.w-100{
     object-fit: cover;
 }
-
-.wrap-header > .hv-con  {
-    z-index: 99999999;
-}
