@@ -5,7 +5,7 @@
 
 .wrap-header .tn {
     /* 중앙 배치 */
-    width: 970px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@
 .wrap-banner,
 .carousel-item,
 .d-block.w-100 {
-    width: 970px;
+    width: 100%;
     height: 450px;
     overflow: hidden;
     margin: 0 auto;

@@ -1,0 +1,39 @@
+/* .prd-body-list a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.prd-body .prd-category .cate-btn:active p{
+    background-color: blue;
+    color: blue;
+} */
+
+.prd-body{
+    position: relative;
+    width: 1000px;
+    margin: 0px auto;
+    top: -60px;
+}
+
+.prd-title {
+    position: relative;
+    text-align: center;
+    top: -60px;
+    font-size: 30px;
+    color: white;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: bolder;
+    text-shadow:  3px 3px 3px black;
+}
+
+.prd-body .nav .nav-tabs{
+
+}
+
+.prd-body .nav-link{
+    color: black;
+}
+
+.prd-body .nav-link:active{
+    font-weight: bolder;
+}
