@@ -1,24 +1,14 @@
-/* .prd-body-list a{
-    text-decoration-line: none;
-    color: black;
-}
-
-.prd-body .prd-category .cate-btn:active p{
-    background-color: blue;
-    color: blue;
-} */
-
+/* 쇼핑 카테고리 & 내용 */
 .prd-body{
     position: relative;
     width: 1000px;
     margin: 0px auto;
-    top: -60px;
+    top: -90px;
 }
 
 .prd-title {
     position: relative;
     text-align: center;
-    top: -60px;
     font-size: 30px;
     color: white;
     font-family: "Gothic A1", sans-serif;
@@ -27,13 +17,23 @@
 }
 
 .prd-body .nav .nav-tabs{
-
+    top: 50px;
+    background-color: white;
+    width: 835px;
+    justify-content:center;
 }
-
 .prd-body .nav-link{
-    color: black;
-}
-
-.prd-body .nav-link:active{
+    font-family: "Gothic A1", sans-serif;
+    font-size: 15px;
     font-weight: bolder;
-}
+    color: black;
+} 
+
+
+/* .prd-body .nav .nav-tabs{
+    position: relative;
+    top: 30px;
+    width: 835px;
+    height: 43px;
+    background-color: white;
+} */
