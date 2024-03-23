@@ -1,0 +1,65 @@
+.wrap-detail{
+    width: 1000px;
+    margin: 0 auto;
+}
+.top-detail{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.top-detail .d-img {
+    width: 550px;
+    height: 550px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.d-txt .tag {
+    color: white;
+    font-weight: bold;
+    font-size: var(--font5);
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.tag p {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 3px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    display: inline-block;
+}
+
+.explain{
+    margin: 20px 0;
+}
+
+.explain p{
+    font-size: var(--font5);
+    margin: 0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: lightgray;
+    color: black;
+}
+
+.nav-item .nav-link{
+   border: 1px solid lightgrey;
+   font-size: var(--font4);
+   padding: 2px 30px;
+   color: black;
+}
+
+.botton-detail {
+    text-align: center;
+}
+.botton-detail img{
+    width: 700px;
+}
