@@ -83,9 +83,9 @@ ol {
   --font2: 17px;
   --font2: 13px;
   --font2: 11px;
-  /*  사용 방법
+  /*  사용
   #a {
   color : var(--color1);
   font-size: var(--font1);
-} */
+ */
 }
