@@ -1,0 +1,87 @@
+.prd-List {
+    text-align: left;
+}
+
+.prd-box {
+    display: inline-block;
+}
+
+.prd-box li {
+    margin: 15px;
+    padding: 10px;
+    float: left;
+
+    box-shadow: 2px 2px 2px 2px lightgray;
+    border-radius: 5px;
+    width: 280px;
+    height: 390px;
+}
+
+.prd-box .box {
+    width: 250px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.prd-box .img_pro {
+    width: 250px;
+}
+
+.prd-box .tag {
+    color: white;
+    font-weight: bold;
+    font-size: var(--font5);
+    text-align: left;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.tag p {
+    display: inline-block;
+    padding: 3px;
+}
+
+.box .description a {
+    display: block;
+    padding: 3px 0;
+}
+
+.box .description .name-sub{
+    height: 40px;
+}
+
+.priceGroup .custom_pro p {
+    position: absolute;
+    right: 0;
+    top: 322px;
+    font-weight: bolder;
+    color: red;
+}
+
+.priceGroup .prs {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.box .prs p{
+    margin: 0;
+}
+
+.icons {
+    display: inline-block;
+}
+
+.prd-box .box .icons img {
+    width: 15px;
+    height: 15px;
+}
+
+.icons p {
+    position: absolute;
+    bottom: 2px;
+    left: 45px;
+    font-weight: bold;
+    margin: 0;
+}

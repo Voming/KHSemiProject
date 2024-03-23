@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <!-- [1] 해상도 - 최적해상도1050px 결정 (최대/최소 지원범위-테스트영역) -->
+    <!-- [1] 해상도 - 최적해상도1050px 결정 (최대/최소 지원범위-테스트영역) -->
     <!-- [2] content 영역 970px 100%, 배치(중앙,왼쪽) -->
     <!-- [3] reset.css 검토 -  폴더 경로 확정 -->
     <link href="/css/reset.css" rel="stylesheet">
@@ -20,38 +21,112 @@
     <link href="/css/header.css" rel="stylesheet">
     <!-- todo 쇼핑 메인에 추가 -->
     <link href="/css/shopping_category.css" rel="stylesheet">
+    <link href="/css/shop_product_list.css" rel="stylesheet">
     <!-- jQuery 선언 -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="prd-List">
         <ul class="prd-box">
             <li>
                 <div class="box">
+                    <img class="img_pro" src="/Images/products/shopping_01.jpg" alt="제품 이미지"
+                        onClick="location.href='TODO상세페이지로 변경하기'">
                     <div class="tag">
-                        <span style="background-color: var(--color_yellow_2);">Best</span>
-                        <span style="background-color: black;">개별배송</span>
-                    </div>
-                    <img src="/Images/products/shopping_01.jpg" alt="제품 이미지" onClick="location.href='TODO상세페이지로 변경하기'">
-                    <div class="description">
-                        <a class="name">더스트 프리 벤토나이트 오리지널</a>
-                        <a class="name-sub">먼지 최소화 & 단단 응고력 & 사막화 방지를 원한다면</a>
-                    </div>
-                    <div class="priceGroup">
-                        <div class="custom_pro" d-price="29900" d-custom="23900">20%</div>
-                        <div class="prs prsLine">29,900원</div>
-                        <div class="prs prsBold">23,900원</div>
-                    </div>
-                    <div class="icons">
-                        <span>
-                            <img src=""
-                        </span>
+                        <p style="background-color: var(--color_yellow_2);">Best</p>
+                        <p style="background-color: black;">개별배송</p>
                     </div>
 
+                    <div class="description">
+                        <a class="name" style="font-size: var(--font4);  font-weight: bold;">더스트 프리 벤토나이트 오리지널</a>
+                        <a class="name-sub" style="font-size: var(--font5);">먼지 최소화 & 단단 응고력 & 사막화 방지를 원한다면</a>
+                    </div>
+                    <div class="priceGroup">
+                        <div class="custom_pro">
+                            <p style="font-size: var(--font3);">20%</p>
+                        </div>
+                        <div class="prs prsLine">
+                            <p style="font-size: var(--font5); color: gray; text-decoration: line-through;">29,900원</p>
+                        </div>
+                        <div class="prs prsBold">
+                            <p style="font-size: var(--font4); font-weight: bold;">23,900원</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <img src="/Images/basket.png" alt="장바구니">
+                        <img src="/Images/comment.png" alt="후기">
+                        <p style="font-size: var(--font5);">29,540</p>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <img class="img_pro" src="/Images/products/shopping_01.jpg" alt="제품 이미지"
+                        onClick="location.href='TODO상세페이지로 변경하기'">
+                    <div class="tag">
+                        <p style="background-color: var(--color_yellow_2);">Best</p>
+                        <p style="background-color: black;">개별배송</p>
+                    </div>
+
+                    <div class="description">
+                        <a class="name" style="font-size: var(--font4);  font-weight: bold;">더스트 프리 벤토나이트 오리지널</a>
+                        <a class="name-sub" style="font-size: var(--font5);">먼지 최소화 & 단단 응고력 & 사막화 방지를 원한다면</a>
+                    </div>
+                    <div class="priceGroup">
+                        <div class="custom_pro">
+                            <p style="font-size: var(--font3);">20%</p>
+                        </div>
+                        <div class="prs prsLine">
+                            <p style="font-size: var(--font5); color: gray; text-decoration: line-through;">29,900원</p>
+                        </div>
+                        <div class="prs prsBold">
+                            <p style="font-size: var(--font4); font-weight: bold;">23,900원</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <img src="/Images/basket.png" alt="장바구니">
+                        <img src="/Images/comment.png" alt="후기">
+                        <p style="font-size: var(--font5);">29,540</p>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <img class="img_pro" src="/Images/products/shopping_01.jpg" alt="제품 이미지"
+                        onClick="location.href='TODO상세페이지로 변경하기'">
+                    <div class="tag">
+                        <p style="background-color: var(--color_yellow_2);">Best</p>
+                        <p style="background-color: black;">개별배송</p>
+                    </div>
+
+                    <div class="description">
+                        <a class="name" style="font-size: var(--font4);  font-weight: bold;">더스트 프리 벤토나이트 오리지널</a>
+                        <a class="name-sub" style="font-size: var(--font5);">먼지 최소화 & 단단 응고력 & 사막화 방지를 원한다면</a>
+                    </div>
+                    <div class="priceGroup">
+                        <div class="custom_pro">
+                            <p style="font-size: var(--font3);">20%</p>
+                        </div>
+                        <div class="prs prsLine">
+                            <p style="font-size: var(--font5); color: gray; text-decoration: line-through;">29,900원</p>
+                        </div>
+                        <div class="prs prsBold">
+                            <p style="font-size: var(--font4); font-weight: bold;">23,900원</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <img src="/Images/basket.png" alt="장바구니">
+                        <img src="/Images/comment.png" alt="후기">
+                        <p style="font-size: var(--font5);">29,540</p>
+                    </div>
                 </div>
             </li>
         </ul>
     </div>
 </body>
+
 </html>

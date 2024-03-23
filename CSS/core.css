@@ -63,6 +63,16 @@ ol {
   margin: 0;
 }
 
+a, p{
+  font-family:"Gothic A1", sans-serif;
+}
+
+a {
+  /* a 속성 리셋 */
+  color: black;
+  text-decoration: none;
+}
+
 :root {
   --color_green_1: #BCD3C1;
   --color_green_2: #7FA694;
@@ -74,15 +84,14 @@ ol {
 
   --color_pink: #F4A77B;
 
-  --color_yellow_2: #FBF4E2;
+  --color_yellow_1: #FBF4E2;
   --color_yellow_2: #FCDE32;
 
   --font1: 20px;
   --font2: 17px;
-  --font2: 15px;
-  --font2: 17px;
-  --font2: 13px;
-  --font2: 11px;
+  --font3: 15px;
+  --font4: 13px;
+  --font5: 11px;
   /*  사용
   #a {
   color : var(--color1);

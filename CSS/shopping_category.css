@@ -2,10 +2,10 @@
     position: relative;
     width: 1000px;
     margin: 0px auto;
-    top: -60px;
+    top: 0px;
 }
 
-.prd-title {
+/* .prd-title {
     position: relative;
     text-align: center;
     top: -60px;
@@ -14,7 +14,7 @@
     font-family: "Gothic A1", sans-serif;
     font-weight: bolder;
     text-shadow: 3px 3px 3px black;
-}
+} */
 
 .prd-body .prd-tab-nav {
     font-size: 0;
@@ -40,7 +40,7 @@
 }
 
 .prd-tab-nav li a.active:before {
-    background: #7ea21e;
+    background: var(--color_yellow_2);
 }
 
 .prd-tab-nav li a.active {
@@ -61,7 +61,8 @@
 .prd-tab-nav li a:hover,
 .prd-tab-nav li a.active {
     background: #fff;
-    color: #7ea21e;
+    color: black;
+    font-weight: bold;
 }
 
 .prd-tab-content {
