@@ -3,7 +3,6 @@ header nav>ul {
     overflow: hidden;
 }
 
-
 header .tn {
     /* 자식들의 기준점 */
     position: relative;
@@ -31,7 +30,7 @@ header .log li {
 
 header .log a {
     /* 로그인 폰트 세팅 */
-    font-size: 13px;
+    font-size: var(--font4);
     font-weight: bolder;
 }
 
@@ -53,7 +52,7 @@ header .nav2-wrap .nav-body {
 header .nav a {
     /* 네비 요소 구역 */
     overflow: hidden;
-    font-size: 15px;
+    font-size: var(--font3);
 }
 
 header .nav>li {
@@ -63,7 +62,6 @@ header .nav>li {
     text-align: center;
     line-height: 50px;
 }
-
 
 /* #nav > li > ul{ */
 header .nav .hv-con {
