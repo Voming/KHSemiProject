@@ -3,21 +3,21 @@
     margin: 0 auto;
 }
 
-.top-detail {
+.wrap-detail .top-detail {
     width: 1000px;
     display: flex;
     margin: 0 auto;
     margin-top: 30px;
 }
 
-.top-detail .d-img {
+.wrap-detail .top-detail .d-img {
     width: 550px;
     height: 550px;
     overflow: hidden;
     margin-right: 30px;
 }
 
-.d-txt .tag {
+.wrap-detail .d-txt .tag {
     color: white;
     font-weight: bold;
     font-size: var(--font5);
@@ -26,62 +26,62 @@
     margin-bottom: 15px;
 }
 
-.tag p {
+.wrap-detail .tag p {
     margin-top: 10px;
     display: inline-block;
     padding: 3px;
     margin: 0 auto;
 }
 
-.nav-link {
+.wrap-detail .nav-link {
     display: inline-block;
 }
 
-.explain {
+.wrap-detail .explain {
     margin: 20px 0;
 }
 
-.explain p {
+.wrap-detail .explain p {
     font-size: var(--font5);
     margin: 0;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+.wrap-detail .nav-pills .nav-link.active,
+.wrap-detail .nav-pills .show>.nav-link {
     background-color: lightgray;
     color: black;
 }
 
-.nav-item .nav-link {
+.wrap-detail .nav-item .nav-link {
     border: 1px solid lightgrey;
     font-size: var(--font4);
     padding: 2px 30px;
     color: black;
 }
 
-.botton-detail {
+.wrap-detail .botton-detail {
     text-align: center;
 }
 
-.botton-detail img {
+.wrap-detail .botton-detail img {
     margin-top: 20px;
     width: 700px;
 }
 
-.d-txt {
+.wrap-detail .d-txt {
     position: relative;
 }
 
-.tag-price p {
+.wrap-detail .tag-price p {
     margin-bottom: 0;
 }
 
-.tag-price .prs {
+.wrap-detail .tag-price .prs {
     display: inline-block;
 
 }
 
-.tag-price .percent {
+.wrap-detail .tag-price .percent {
     position: absolute;
     font-size: var(--font3);
     font-weight: bold;
@@ -90,16 +90,16 @@
     right: 0;
 }
 
-.tag-price .prs {
+.wrap-detail .tag-price .prs {
     display: inline-block;
 
 }
 
-.option label {
+.wrap-detail .option label {
     margin-right: 45px;
 }
 
-.btn-buy button{
+.wrap-detail .btn-buy button{
     width: 190px;
     height: 50px;
     background-color: lightgrey;
