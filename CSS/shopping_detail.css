@@ -1,8 +1,9 @@
-.wrap-detail{
+.wrap-detail {
     width: 1000px;
     margin: 0 auto;
 }
-.top-detail{
+
+.top-detail {
     width: 1000px;
     display: flex;
     margin: 0 auto;
@@ -32,34 +33,75 @@
     margin: 0 auto;
 }
 
-.nav-link{
+.nav-link {
     display: inline-block;
 }
 
-.explain{
+.explain {
     margin: 20px 0;
 }
 
-.explain p{
+.explain p {
     font-size: var(--font5);
     margin: 0;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     background-color: lightgray;
     color: black;
 }
 
-.nav-item .nav-link{
-   border: 1px solid lightgrey;
-   font-size: var(--font4);
-   padding: 2px 30px;
-   color: black;
+.nav-item .nav-link {
+    border: 1px solid lightgrey;
+    font-size: var(--font4);
+    padding: 2px 30px;
+    color: black;
 }
 
 .botton-detail {
     text-align: center;
 }
-.botton-detail img{
+
+.botton-detail img {
+    margin-top: 20px;
     width: 700px;
+}
+
+.d-txt {
+    position: relative;
+}
+
+.tag-price p {
+    margin-bottom: 0;
+}
+
+.tag-price .prs {
+    display: inline-block;
+
+}
+
+.tag-price .percent {
+    position: absolute;
+    font-size: var(--font3);
+    font-weight: bold;
+    color: red;
+    top: 230px;
+    right: 0;
+}
+
+.tag-price .prs {
+    display: inline-block;
+
+}
+
+.option label {
+    margin-right: 45px;
+}
+
+.btn-buy button{
+    width: 190px;
+    height: 50px;
+    background-color: lightgrey;
+    border: 0;
 }
