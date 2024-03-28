@@ -1,39 +1,62 @@
 /* 쇼핑 카테고리 & 내용 */
-.prd-body{
+
+.prd-body {
     position: relative;
     width: 1000px;
     margin: 0px auto;
-    top: -90px;
+    top: 0px;
 }
 
-.prd-title {
-    position: relative;
+.prd-body .prd-tab-nav {
+    font-size: 0;
+    width: 1000px;
     text-align: center;
-    font-size: 30px;
-    color: white;
-    font-family: "Gothic A1", sans-serif;
-    font-weight: bolder;
-    text-shadow:  3px 3px 3px black;
 }
 
-.prd-body .nav .nav-tabs{
-    top: 50px;
-    background-color: white;
-    width: 835px;
-    justify-content:center;
+.prd-tab-nav li {
+    display: inline-block;
+    height: 25px;
+    text-align: center;
+  
 }
-.prd-body .nav-link{
-    font-family: "Gothic A1", sans-serif;
-    font-size: 15px;
-    font-weight: bolder;
-    color: black;
-} 
 
+/* 가상 요소의 생성 위치는 ::before 가상요소 -> 요소의 콘텐츠 -> ::after 가상요소 순서 */
+.prd-tab-nav li a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 3px;
+}
 
-/* .prd-body .nav .nav-tabs{
+.prd-tab-nav li a.active:before {
+    background: var(--color_yellow_2);
+}
+
+.prd-tab-nav li a.active {
+    border-bottom: 1px solid #fff;
+}
+
+.prd-tab-nav li a {
     position: relative;
-    top: 30px;
-    width: 835px;
-    height: 43px;
-    background-color: white;
-} */
+    display: block;
+    background: #f8f8f8;
+    color: #000;
+    padding: 0 30px;
+    line-height: 46px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.prd-tab-nav li a:hover,
+.prd-tab-nav li a.active {
+    background: #fff;
+    color: black;
+    font-weight: bold;
+}
+
+.prd-tab-content {
+    padding: 20px;
+    height: 244px;
+}

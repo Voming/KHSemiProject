@@ -1,5 +1,5 @@
 /* 헤더 설정 */
-.wrap-header{
+.wrap-header {
     z-index: 1;
 }
 
@@ -9,18 +9,17 @@
     margin: 0 auto;
 }
 
-.wrap-header .bn{
+.wrap-header .bn {
     width: 100%;
 }
 
-.logo-side{
+.logo-side {
     overflow: hidden;
     margin: 0 auto;
     height: 60px;
 }
 
-.logo .img{
+.logo .img {
     object-fit: cover;
 }
-
 
